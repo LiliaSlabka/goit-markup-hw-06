@@ -271,8 +271,8 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: 530px;
-  min-height: 580px;
+  width: 528px;
+  height: 581px;
   padding: 40px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -312,6 +312,7 @@ img {
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 12px;
 
   color: #212121;
 }
@@ -324,6 +325,7 @@ img {
   padding-right: 15px;
   padding-top: 0;
   padding-bottom: 0;
+  margin-bottom: 10px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -341,7 +343,7 @@ img {
 
   display: block;
   width: 450px;
-  height: 140px;
+  height: 120px;
   margin-bottom: 20px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -355,7 +357,6 @@ img {
 .register-form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .form-checkbox-castom-checkbox {
@@ -364,6 +365,9 @@ img {
   justify-content: center;
   width: 16px;
   height: 15px;
+
+  margin-left: 10px;
+  margin-right: 10px;
   border: 2px solid #000000;
   border-radius: 3px;
 
@@ -374,12 +378,15 @@ img {
 
 .form-checkbox-agreement {
   display: inline-block;
+  letter-spacing: 0.03em;
+
   margin-bottom: 30px;
   color: #757575;
 }
 
 .form-link {
   color: var(--accent-txt-color);
+  letter-spacing: 0.03em;
 }
 
 .form-checkbox-input:checked + .form-checkbox-castom-checkbox {
@@ -458,6 +465,10 @@ img {
 .form-input:focus ~ .form-icon {
   fill: var(--accent-txt-color);
 }
+
+/* .form-checkbox-icon {
+  margin-right: 10px;
+} */
 /* Особнности  */
 
 .about {
